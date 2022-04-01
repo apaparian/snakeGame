@@ -1,0 +1,104 @@
+
+html {
+  background-color: rgb(200, 231, 200);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  min-width: 700px;
+  min-height: 700px;
+}
+
+h1 {
+  size: 36px;
+  margin-bottom: 36px;
+}
+
+#game-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.snake-friend {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#head {
+  background: rgb(0, 0, 0);
+  height: 45px;
+  width: 45px;
+  background-color: rgb(255, 193, 35);
+  position: absolute;
+}
+
+.head-up {
+  border-radius: 20px 20px 0 0;
+}
+
+.head-right {
+  border-radius: 0 20px 20px 0;
+}
+
+.head-down {
+  border-radius: 0 0 20px 20px;
+}
+
+.head-left {
+  border-radius: 20px 0 0 20px;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 6px rgb(79, 124, 79) solid;
+  position: relative;
+  border-radius: 8px;
+}
+
+#board-texture {
+  height: 700px;
+  width: 700px;
+  position: relative;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+#game-over {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+}
+
+.body {
+  background: black;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(254, 241, 169);
+  position: absolute;
+}
+
+#neck {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#dead-head {
+  background-color: rgb(122, 21, 9);
+}
+
+.dead-body {
+  background: black;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(174, 72, 60);
+  position: absolute;
+}
